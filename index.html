@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aprendendo Git e GitHub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #ecf0f1; /* Cor de fundo clara */
+      color: #333; /* Texto escuro */
+    }
+
+    header {
+      background-color: #34495e;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    }
+
+    header h1 {
+      color: #ecf0f1; /* Texto claro */
+      font-size: 32px;
+      margin: 0;
+      margin-bottom: 15px; /* Espaço adicionado */
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #ecf0f1;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #e74c3c; /* Vermelho */
+    }
+
+    section {
+      padding: 20px;
+      max-width: 800px;
+      margin: 20px auto;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #2980b9; /* Azul */
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 5px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #34495e;
+      color: #ecf0f1;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    footer p {
+      margin: 5px 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #f9f9f9;
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    code {
+      background-color: #f1c40f; /* Amarelo */
+      padding: 2px 5px;
+      border-radius: 3px;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aprendendo Git e GitHub</h1>
+    <nav>
+      <a href="#git">O que é o Git</a>
+      <a href="#github">O que é o GitHub</a>
+      <a href="#diferencas">Diferenças</a>
+      <a href="#comandos">Comandos Linux</a>
+      <a href="#repositorio">Criar Repositório</a>
+      <a href="#projeto">Ligar a Projeto</a>
+      <a href="#versao">Gerar Versão</a>
+      <a href="#enviar">Enviar para GitHub</a>
+    </nav>
+  </header>
+
+  <section id="git">
+    <h2>O que é o Git</h2>
+    <p>Git é uma ferramenta que ajuda você a controlar as mudanças nos seus arquivos. É ótimo para trabalhar em equipe, permitindo que várias pessoas façam alterações sem bagunçar tudo.</p>
+  </section>
+
+  <section id="github">
+    <h2>O que é o GitHub</h2>
+    <p>GitHub é como uma rede social para programadores. Ele permite que você armazene seus projetos online e colabore com outras pessoas. É onde você pode compartilhar seu código e ver o que os outros estão fazendo.</p>
+  </section>
+
+  <section id="diferencas">
+    <h2>Diferenças entre Git e GitHub</h2>
+    <p>Git é a ferramenta que você usa no seu computador para gerenciar versões dos seus arquivos. Já o GitHub é um site onde você pode armazenar esses arquivos e colaborar com outras pessoas.</p>
+  </section>
+
+  <section id="comandos">
+    <h2>Comandos Básicos do Linux</h2>
+    <p>Aqui estão alguns comandos básicos do Linux que você vai achar úteis:</p>
+    <ul>
+      <li><code>cd nome_da_pasta</code> - Entrar em uma pasta.</li>
+      <li><code>ls nome_da_pasta</code> - Listar o conteúdo de uma pasta.</li>
+      <li><code>mkdir nome_da_pasta</code> - Criar uma nova pasta.</li>
+      <li><code>rm -r nome_da_pasta</code> - Excluir uma pasta.</li>
+      <li><code>mv nome_atual_do_arquivo nome_novo_do_arquivo</code> - Renomear um arquivo.</li>
+      <li><code>mv nome_do_arquivo caminho_da_pasta/</code> - Mover um arquivo para outra pasta.</li>
+      <li><code>cp nome_do_arquivo caminho_da_pasta_de_destino/</code> - Copiar um arquivo para outra pasta.</li>
+    </ul>
+  </section>
+
+  <section id="repositorio">
+    <h2>Como criar um repositório no GitHub</h2>
+    <p>Para criar um repositório, entre na sua conta do GitHub, clique em "New" e siga as instruções. É rápido e fácil!</p>
+  </section>
+
+  <section id="projeto">
+    <h2>Como ligar a um projeto existente na máquina</h2>
+    <p>Para começar a usar o Git em um projeto que já existe, abra o terminal na pasta do projeto e digite <code>git init</code> para inicializar o repositório.</p>
+  </section>
+
+  <section id="versao">
+    <h2>Como gerar uma versão com Git</h2>
+    <p>Para marcar uma nova versão do seu projeto, use <code>git tag -a v1.0 -m "Versão 1.0"</code>. Assim, você pode voltar a essa versão quando precisar.</p>
+  </section>
+
+  <section id="enviar">
+    <h2>Como enviar da máquina para o GitHub</h2>
+    <p>Depois de fazer suas alterações e salvar com um <code>commit</code>, use <code>git push origin main</code> para enviar tudo para o GitHub.</p>
+  </section>
+
+  <footer>
+    <p>Desenvolvido por Murilo Rosa Bello</p>
+  </footer>
+</body>
+</html>
